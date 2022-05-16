@@ -1,1 +1,3 @@
-<app-post *ngFor="let item of posts" [post]="item"></app-post>
+<app-post *ngFor="let post of posts" [post] = "post"></app-post>
+
+<router-outlet></router-outlet>

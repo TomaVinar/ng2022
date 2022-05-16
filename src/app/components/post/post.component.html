@@ -1,7 +1,5 @@
 <div>
   {{post.id}}
-  <div>
-    {{post.title}}
-    {{post.body}}
-  </div>
+  <h3>{{post.title}}</h3>
+  <a [routerLink]="['post-details', post.id]">Post Details</a>
 </div>
