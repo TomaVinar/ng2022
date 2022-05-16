@@ -1,8 +1,9 @@
-<div>{{comment.id}}
-  <div>
-    {{comment.name}} - {{comment.email}}
-    <div>
-      {{comment.body}}
-    </div>
-  </div>
+<div>
+  <h3>{{comment.name}}</h3>
+  {{comment.email}}
+  <a [routerLink]="['comment-details', comment.id]" [state]="{data:comment}" >details</a>
 </div>
+<br>
+
+<router-outlet></router-outlet>
+
