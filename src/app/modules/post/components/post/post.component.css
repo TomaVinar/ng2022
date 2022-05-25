@@ -1,0 +1,15 @@
+button {
+  width: auto;
+  height: 40px;
+  background: rebeccapurple;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+.post_item {
+  margin-bottom: 40px;
+  font-size: 18px;
+}
+

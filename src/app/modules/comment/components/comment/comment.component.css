@@ -1,0 +1,15 @@
+button {
+  width: auto;
+  height: 40px;
+  background: darkslateblue;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+.comment_item {
+  font-size: 18px;
+  margin-bottom: 40px;
+  font-weight: bold;
+}

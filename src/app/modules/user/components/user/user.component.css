@@ -1,0 +1,13 @@
+button {
+  width: auto;
+  height: 40px;
+  background: darkcyan;
+  border-radius: 8px;
+  color: white;
+  font-size: 18px;
+  border: none;
+}
+
+.user_item {
+  margin-bottom: 40px;
+}
